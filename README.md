@@ -3,8 +3,22 @@
 地址 https://acmistianpp.github.io/imagebed/
 
 ## 步骤
-新建仓库，push所有资源文件
+1.新建仓库，push所有资源文件。
 > 注：img 是自己的图片，其他都是资源文件。
 
-在 setting-pages 中开启 GitHub Pages 服务，即可生成一个访问地址。
+2.在 setting-pages 中开启 GitHub Pages 服务，即可生成一个访问地址。
 
+3.访问自己的图片
+
+使用 jsDelivr 免费加速 GitHub Pages 博客的静态资源
+
+``` 
+https://cdn.jsdelivr.net/gh/你的用户名/你的仓库名@发布的版本号/文件路径
+
+比如：
+
+//加载js
+https://cdn.jsdelivr.net/gh/yremp/cdn@1.0/js/jquery.js
+
+//加载图片
+https://cdn.jsdelivr.net/gh/yremp/cdn@1.0/images/hb.png
